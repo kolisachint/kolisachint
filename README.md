@@ -5,12 +5,10 @@ people never see: the platforms, pipelines and APIs that make a bank's app show 
 right number.
 
 Today I architect the batch and real-time data platform for a UK tier-1 retail bank —
-Kafka and Pub/Sub ingestion, Cloud Composer orchestration against a legacy enterprise
-scheduler, BigQuery and dbt modelling, Terraform throughout. The hard part is never a
-single tool; it is making a modern cloud stack and a twenty-year-old on-premise estate
-agree with each other, every night. Before that, four years on payments at the same bank —
-cards into Google Pay and Apple Pay, and a three-tranche migration of the card-journey
-estate onto GCP microservices behind Apigee X.
+Kafka and Pub/Sub ingestion, Cloud Composer against a legacy enterprise scheduler,
+BigQuery and dbt modelling, Terraform throughout. The hard part is never a single tool;
+it is making a modern cloud stack and a twenty-year-old on-premise estate agree with each
+other, every night. Before that, four years on payments at the same bank.
 
 ### → [kolisachint.github.io](https://kolisachint.github.io)
 
@@ -28,23 +26,19 @@ rather than call someone's API for them. **A sample — there is more on the sit
 - **[voicetools](https://github.com/kolisachint/voicetools)** — offline speech recognition. Microphone to stdout; no audio leaves the machine.
 - **[design_to_code](https://github.com/kolisachint/design_to_code)** — a spreadsheet data model into docs, DBML, Terraform and a dbt skeleton. My day job, made reproducible.
 
-Browser, file, web and multi-agent tooling sits around these. I work on **inference and
-retrieval**, not model training.
+I work on **inference and retrieval**, not model training.
 
 ---
 
-### Some things that shipped
+### Two that stuck
 
 - The **self-serve fraud journey** I architected was recognised at the **Banking Tech Awards 2024**
   and the **Card & Payments Awards 2025**. The award went to the programme; my contribution
   was the solution architecture.
 - A customer **preference API on GCP** serving millions of customers, taking **$600,000 a year**
   out of operating cost.
-- A **Teradata → BigQuery** migration, with five surrounding stacks replaced as it went:
-  Unix → Compute Engine, Control-M → Airflow, shell ETL → Python.
-- Decisions get written down and argued as ADRs. One recent one replaced a bespoke four-tier
-  visitor key with vendor-native canonical keys — exact dashboard parity, a whole class of
-  window-function compute deleted, legacy keys kept for reconciliation.
+
+Migrations, platform rebuilds and the ADRs behind them are on the site.
 
 ---
 
