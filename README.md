@@ -28,9 +28,18 @@ wanted to understand the primitives rather than call someone's API for them.
 | **[voicetools](https://github.com/kolisachint/voicetools)** | Offline speech recognition — microphone → VAD → Parakeet-TDT on ONNX Runtime, 25 languages, `whisper.cpp` fallback. No audio leaves the machine. |
 | **[webtools](https://github.com/kolisachint/webtools)** | Token-efficient fetch and search for agents. Preserves reference-style URLs as single-token markers so a page fits inside a context budget. |
 | **[hooteams](https://github.com/kolisachint/hooteams) · [hoocowork](https://github.com/kolisachint/hoocowork) · [hoocanvas](https://github.com/kolisachint/hoocanvas)** | The collaboration layer above the agent — multi-agent teams, a shared workspace, and a canvas for the artefacts they produce. |
-| **[browsertools](https://github.com/kolisachint/browsertools) · [filetools](https://github.com/kolisachint/filetools) · [computertools](https://github.com/kolisachint/computertools)** | The rest of the tool surface an agent needs to touch a real machine. |
+| **[browsertools](https://github.com/kolisachint/browsertools)** | A deterministic browser engine with **no LLM in-process** — drives Chromium over raw CDP, replays saved flows into tamper-evident evidence bundles, and exposes the primitives over stdio JSON-RPC with a live screencast. |
+| **[filetools](https://github.com/kolisachint/filetools)** | Reversible, token-efficient file serialization for LLMs. A file becomes compact semantic JSON, an edit patch comes back, and the original format is reconstructed **losslessly** — a byte-span id-map means untouched bytes are reproduced exactly. |
 
 I work on **inference and retrieval**, not model training.
+
+### …and the day job, in public
+
+| | |
+| --- | --- |
+| **[design_to_code](https://github.com/kolisachint/design_to_code)** | A data model on a spreadsheet, turned into what a BigQuery platform actually needs — documentation, a Mermaid ER diagram, a DBML physical schema, Terraform HCL for datasets and tables, and a dbt skeleton of staging models and marts. The unglamorous first week of every platform build, made reproducible and diffable. |
+| **[ai_learning](https://github.com/kolisachint/ai_learning)** | An offline BigQuery Terraform agent — CSV, JSON, HTML or PDF table schemas in, `google_bigquery_table` HCL out, inference on Ollama with no cloud API key required. |
+| **[BrainDock](https://github.com/kolisachint/BrainDock)** | A local-first second brain across Obsidian and Apple Reminders — two-way sync, AI-enriched review synthesis, semantic search, and a 5-level next-focus engine. Built for me, used daily. |
 
 ---
 
