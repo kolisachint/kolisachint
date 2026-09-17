@@ -36,8 +36,8 @@ I work on **inference and retrieval**, not model training.
 - The **self-serve fraud journey** I architected was recognised at the **Banking Tech Awards 2024**
   and the **Card & Payments Awards 2025**. The award went to the programme; my contribution
   was the solution architecture.
-- A customer **preference API on GCP** serving millions of customers, taking **$600,000 a year**
-  out of operating cost.
+- Earlier, in US retail: a customer **preference API on GCP** serving millions of customers,
+  taking **$600,000 a year** out of operating cost.
 
 Migrations, platform rebuilds and the ADRs behind them are on the site.
 
@@ -48,4 +48,4 @@ Migrations, platform rebuilds and the ADRs behind them are on the site.
 
 **Google Cloud Certified — Professional Data Engineer.** Professional Cloud Architect in progress.
 
-[kolisachint.github.io](https://kolisachint.github.io) · [LinkedIn](https://www.linkedin.com/in/kolisachint) · kolisachint@gmail.com
+[kolisachint.github.io](https://kolisachint.github.io) · [LinkedIn](https://www.linkedin.com/in/kolisachint) · [kolisachint@gmail.com](mailto:kolisachint@gmail.com)
