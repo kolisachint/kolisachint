@@ -46,6 +46,4 @@ Migrations, platform rebuilds and the ADRs behind them are on the site.
 `GCP` · `BigQuery` · `dbt` · `Cloud Composer` · `Pub/Sub` · `Kafka` · `Apigee` · `Terraform` ·
 `Python` · `Rust` · `TypeScript` · `ONNX Runtime` · `MCP` · `RAG`
 
-**Google Cloud Certified — Professional Data Engineer.** Professional Cloud Architect in progress.
-
 [kolisachint.github.io](https://kolisachint.github.io) · [LinkedIn](https://www.linkedin.com/in/kolisachint) · [kolisachint@gmail.com](mailto:kolisachint@gmail.com)
