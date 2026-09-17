@@ -1,6 +1,6 @@
 ## Sachin Koli
 
-**Solution Architect — Cloud Data & AI Platforms.** Eighteen years on the layer most
+**Solution Architect — Cloud Data & AI Platforms.** Since 2008 on the layer most
 people never see: the platforms, pipelines and APIs that make a bank's app show you the
 right number.
 
@@ -18,13 +18,14 @@ The work in detail — what shipped, what it cost, and what I would do different
 
 ### In the open
 
-Agent tooling and on-device inference, mostly Rust, written to understand the primitives
-rather than call someone's API for them. **A sample — there is more on the site:**
+Applied AI, mostly Rust: agent tooling, retrieval and on-device inference, written to
+understand the primitives rather than call someone's API for them. The platform work I am
+paid for sits inside a bank and cannot be shown — **these four can:**
 
 - **[hoocode](https://github.com/kolisachint/hoocode)** — a deterministic terminal coding agent, on npm. Permission gate on every edit, one API across 25+ providers, MCP, subagents.
 - **[embeddingsearchtools](https://github.com/kolisachint/embeddingsearchtools)** — semantic search in Rust. HNSW written from scratch, BM25 fused on top, int8 MiniLM in the binary.
 - **[voicetools](https://github.com/kolisachint/voicetools)** — offline speech recognition. Microphone to stdout; no audio leaves the machine.
-- **[design_to_code](https://github.com/kolisachint/design_to_code)** — a spreadsheet data model into docs, DBML, Terraform and a dbt skeleton. My day job, made reproducible.
+- **[webtools](https://github.com/kolisachint/webtools)** — token-efficient web fetch and search for agents, in Rust. Links collapse to `[1]`-sized markers, so a whole page fits inside a context budget.
 
 I work on **inference and retrieval**, not model training.
 
