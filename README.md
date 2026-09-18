@@ -35,8 +35,12 @@ Inference and retrieval, not model training.
 
 The hard part is never a single tool, on either side. It is making a modern cloud stack
 and a twenty-year-old on-premise estate agree with each other, every night — four years on
-the same bank's payments platform before that. The migrations, the platform rebuilds and
-the ADRs behind them are [on the site](https://kolisachint.github.io).
+the same bank's payments platform before that. The engagements, and what each one actually
+involved, are [on the site](https://kolisachint.github.io/about).
+
+<!-- now:start -->
+**Now · September 2026** — Building HooCode, a terminal coding agent, and the small Rust tools it leans on — search, browser, speech, files.
+<!-- now:end -->
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kolisachint)
 [![X](https://img.shields.io/badge/@sachinkoli-333333?style=flat-square&logo=x&logoColor=white)](https://x.com/sachinkoli)

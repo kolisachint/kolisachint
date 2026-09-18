@@ -1,0 +1,36 @@
+name: sync now line
+
+# The profile's only moving part. `now` is edited once, on the site
+# (kolisachint.github.io/src/site.ts), and mirrored here — so the README says
+# something current without ever being hand-edited for it.
+
+on:
+  schedule:
+    - cron: "17 4 * * *" # daily, 09:47 IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - run: node scripts/sync-now.mjs
+
+      - name: Commit if the line moved
+        run: |
+          if [ -z "$(git status --porcelain README.md)" ]; then
+            echo "no change"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Profile: sync the now line from the site" README.md
+          git push
