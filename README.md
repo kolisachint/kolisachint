@@ -12,5 +12,4 @@ These days that means batch and real-time platforms in the cloud.
 
 In the open I build small tools for coding agents, mostly in Rust.
 
-→ **[kolisachint.github.io](https://kolisachint.github.io)** ·
-[X @sachinkoli](https://x.com/sachinkoli)
+→ **[kolisachint.github.io](https://kolisachint.github.io)** 
